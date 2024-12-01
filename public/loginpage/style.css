@@ -1,0 +1,116 @@
+.login{
+    position: relative;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+.class_bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+  
+}
+.class_form{
+    font-family: Courier;
+    position: relative;
+    margin-inline: 1.5rem;
+    border: 2px solid hsla(0, 0%, 100%, 0.356);
+    padding: 2.5rem 1rem;
+    border-radius: 2.5rem;
+    color: rgba(250, 250, 250, 0.637);
+    backdrop-filter: blur(15px);
+}
+
+.class_title{
+    text-align: center;
+}
+
+
+.class_inputs,
+.class_box{
+    display: grid;
+}
+.class_inputs{
+    row-gap: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.class_box{
+    border: 2px solid hsla(0, 0%, 100%, 0.356);
+    border-radius: 4rem;
+    padding-inline: 1rem;
+    
+}
+.class_input{
+    width: 100%;
+    background: none;
+    padding-block: 0.7rem;
+    color: rgba(65, 65, 65, 0.58);
+    border: none;
+    outline: none;
+}
+.class_check,
+.class_checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 0.1rem;
+}
+.class_check{
+    margin-bottom: 1rem;
+    margin-left: 0.4rem;
+    font-size: 13px
+}
+.class_forgot{
+    color: hsla(0, 0%, 100%, 0.452);
+    text-decoration: solid;
+}
+.class_forgot:hover{
+    text-decoration: underline;
+}
+.class_checkbox_input{
+    width: 0.75rem;
+    height: 0.75rem;
+    accent-color: white;
+}
+.class_submit{
+width: 100%;
+border: 2px;
+border-radius: 1rem;
+padding-block: 0.5rem;
+background-color: hsla(0, 8%, 88%, 0.409);
+color: hsla(0, 0%, 100%, 0.653);
+margin-bottom: 1rem;
+cursor: pointer;
+font-family: 'Courier New', Courier, monospace;
+}
+.class_register{
+    text-align: center;
+    font-size: 13px;
+    color: hsla(0, 0%, 100%, 0.664);
+
+}
+.class_register a{
+    color: hsla(0, 0%, 100%, 0.452);
+    text-decoration: solid;
+}
+.class_register a:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 576px){
+    .login{
+        justify-content: center;
+    }
+    .class_form{
+        width: 420px;
+        padding-inline: 2.5rem;
+    }
+    .class_title{
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "properties": [
+      {
+        "name": "Nira Enclave",
+        "address": "97804 Shahmeer Road",
+        "price": "650",
+        "rooms": "10"
+      },
+      {
+        "name": "Aanya Greens",
+        "address": "2303 Bells Road",
+        "price": "800",
+        "rooms": "11"
+      },
+      {
+        "name": "Akay Villas",
+        "address": "65789 Shaziya Road",
+        "price": "500",
+        "rooms": "6"
+      }
+    ],
+    "footer": {
+      "subscribe": "Subscribe",
+      "followUs": "Follow Us",
+      "contactUs": "Contact Us",
+      "ourAddress": "Our Address",
+      "phone": "+6865785578",
+      "location": "Sector 54 Gurugram,<br />Haryana",
+      "copyright": "Copyright © 2007-2024 All rights reserved. - Terms & Conditions"
+    },
+    "images": {
+      "emptyBed": "img/Empty Bed.png",
+      "bathtub": "img/Bathtub.png",
+      "layers": "img/Layers-2.png",
+      "placeMarker": "img/Place Marker-2.png",
+      "emptyBed1": "img/Empty Bed-1.png",
+      "emptyBed2": "img/Empty Bed-2.png",
+      "logo": "img/-kFI8-j-Rb64Pw1WtPrGoQ 1.png",
+      "facebook": "img/Facebook.png",
+      "twitter": "img/Twitter.png",
+      "instagram": "img/Instagram.png",
+      "linkedIn": "img/LinkedIn.png",
+      "bgImage": "img/BeFunky-photo.jpg"
+    }
+  }

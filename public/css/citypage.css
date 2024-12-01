@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    background-color: #f2f2f2;
+    max-width: 1496px;
+    margin: auto;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 120px 20px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('/img/BeFunky-photo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: auto;
+    color: #fff;
+}
+
+.property-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.property-card {
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.property-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.property-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #f2f2f2;
+}
+
+.property-card h2 {
+    font-size: 1.8em;
+    margin: 15px 0;
+    color: #000;
+}
+
+.property-card p {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.no-property {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #676764;
+}
+
+.no-property h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    
+}
+
+.no-property p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.dealer-info {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.dealer-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.dealer-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dealer-info li {
+    font-size: 1.3em;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.facilities {
+    background-color: #e6e6e6;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.facilities ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.facilities li {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    flex: 1;
+    text-align: center;
+    margin: 0 15px;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.facilities h2 {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.connectivity {
+    background-color: #cccccc;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.connectivity h2 {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.connectivity ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.connectivity li {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    flex: 1;
+    text-align: center;
+    margin: 0 15px;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.navbar {
+    color: #000;
+    position: fixed;
+    width: 1496px;
+    height: 72px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #e9efec;
+    border-radius: 0px 0px 32px 32px;
+    box-shadow: 0px 4px 4px #00000040;
+  }
+  
+.frame-25 {
+    position: absolute;
+    width: 184px;
+    height: 52px;
+    top: 6px;
+    left: 1262px;
+  }
+  
+.user {
+    position: absolute;
+    width: 45px;
+    height: 32px;
+    top: 10px;
+  }
+  
+.text56 {
+    position: absolute;
+    top: 14px;
+    left: 41px;
+    color: #676764;
+    font-size: 24px;
+  }
+  
+.kfi-j {
+    position: absolute;
+    width: 180px;
+    height: 72px;
+    left: 50px;
+    mix-blend-mode: multiply;
+  }
+  
+.text57 {
+    color: #000;
+    left: 408px;
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+.text58 {
+    width: 86px;
+    left: 600px;
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+.text59 {
+    left: 651px;
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+.text60 {
+    left: 780px;
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+.text61 {
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+.text62 {
+    left: 1002px;
+    position: absolute;
+    top: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .text57:hover,.text58:hover,.text59:hover,.text60:hover,.text61:hover,.text62:hover{
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewari</title>
+    <link rel="stylesheet" href="/css/citypage.css">
+</head>
+<body>
+    <%- include('../partials/navbar.ejs') %> 
+
+    <main>
+        <section class="hero-section">
+            <h1>Properties in Rewari</h1>
+            <p>Explore premium properties in Rewari, brought to you by KayHomes.</p>
+        </section>
+
+        <section class="property-list">
+            <article class="property-card">
+                <img src="img/gurgaon-crestview-apartments-1.jpg" alt="Rewari Property 1">
+                <h2>Luxury Apartment</h2>
+                <p>Starting from ₹ 80 L</p>
+            </article>
+            <article class="property-card">
+                <img src="img/dlf.jpg" alt="Rewari Property 2">
+                <h2>Residential Villa</h2>
+                <p>Starting from ₹ 3.8 Cr</p>
+            </article>
+            <article class="property-card">
+                <div class="no-property">
+                    <h2>Adding more properties soon...</h2>
+                    <p>We are expanding our portfolio!</p>
+                </div>
+            </article>
+        </section>
+        <br>
+        <hr>
+
+        <section class="dealer-info">
+            <h2>Top Dealers in Rewari</h2>
+            <ul>
+                <li><strong>Rewari Realty:</strong> +91-9876543210</li>
+                <li><strong>Prestige Properties:</strong> +91-9123456780</li>
+                <li><strong>Rewari Homes:</strong> +91-9876587654</li>
+            </ul>
+        </section>
+
+        <section class="facilities">
+            <h2>Facilities in Rewari</h2>
+            <p>Rewari offers excellent amenities for its residents:</p>
+            <ul>
+                <li>Top-notch schools and colleges</li>
+                <li>Modern hospitals and clinics</li>
+                <li>Well-developed shopping centers</li>
+                <li>24/7 security</li>
+            </ul>
+        </section>
+
+        <section class="connectivity">
+            <h2>Connectivity in Rewari</h2>
+            <p>Rewari is well-connected to nearby cities:</p>
+            <ul>
+                <li>Proximity to NH-8</li>
+                <li>Efficient local transportation</li>
+                <li>Easy access to Delhi and Gurgaon</li>
+                <li>Nearby railway station</li>
+            </ul>
+        </section>
+    </main>
+    
+    <%- include('../partials/footer.ejs') %>
+</body>
+</html>
